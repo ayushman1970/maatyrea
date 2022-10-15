@@ -1,0 +1,17 @@
+h1{
+    margin-left: 30%;
+    
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+}
+.tripreportbtn{
+     background-color: rgb(5, 206, 206);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: whitesmoke;
+    padding: 10px;
+    font-size: smaller;
+}
