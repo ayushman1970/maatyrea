@@ -14,11 +14,11 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Login/>}/>
-          <Route path='/workorder' element={<WorkOrder/>}/>
+          <Route path='/workorder/' element={<WorkOrder/>}/>
             <Route path="/updateworkorder/:id" element={<AddEditWO />}/>  
-            <Route path="/exportworkorder" element={<ExportWO />}/>
-            <Route path="/generatetripreport" element={<GenerateTripReport />}/>
-             <Route path='/trippanel' element={<TripRegister/>}/>   
+            <Route path="/exportworkorder/" element={<ExportWO />}/>
+            <Route path="/generatetripreport/" element={<GenerateTripReport />}/>
+             <Route path='/trippanel/' element={<TripRegister/>}/>   
         </Routes>
       </Router>
       
